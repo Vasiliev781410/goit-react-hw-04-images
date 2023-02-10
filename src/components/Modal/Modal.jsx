@@ -11,7 +11,7 @@ export const Modal = ({largeImageURL, setModalOpenStatus}) => {
         document.removeEventListener("keydown", handleClick);
       };
     }
-  ,[])
+  ,[]);
 
   const handleClick = (e) => {             
     if (e.code === "Escape") {      
